@@ -10,7 +10,7 @@ Aplikacja do podglądu rzeczywistych odjazdów ZTM Gdańsk oraz zarządzania zap
 - Logowanie + generowanie tokenu JWT (Bearer Authentication)
 - Middleware weryfikujący token
 - CRUD dla ulubionych przystanków użytkownika
-- Pobieranie danych live z API ZTM (`delays?stopId`)
+- Pobieranie danych live z API ZTM (`depaertures?stopId`)
 - Cache pliku `stops.json` (np. odświeżanie co 24h)
 - Dokumentacja API w Swagger UI z możliwością autoryzacji Bearer
 - Baza PostgreSQL + ORM **EF Core** + Value Objects w encjach
