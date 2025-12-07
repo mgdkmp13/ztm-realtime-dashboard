@@ -1,0 +1,53 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+.vs/
+.vscode/
+*.DotSettings.user
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Frontend build
+dist/
+dist-ssr/
+.cache/
+
+# Test coverage
+coverage/
+test-results/
+playwright-report/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~

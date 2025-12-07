@@ -1,0 +1,30 @@
+{
+  "name": "ztm-app-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ZTM Gdañsk - Full Stack Application",
+  "scripts": {
+    "install:frontend": "cd ztm-frontend && npm install",
+    "install:all": "npm run install:frontend",
+    "dev:backend": "cd ztmApp && dotnet run",
+    "dev:frontend": "cd ztm-frontend && npm run dev",
+    "build:backend": "cd ztmApp && dotnet build",
+    "build:frontend": "cd ztm-frontend && npm run build",
+    "test:backend": "cd ztmApp && dotnet test",
+    "test:frontend": "cd ztm-frontend && npm run test:unit",
+    "test:e2e": "cd ztm-frontend && npm run test:e2e",
+    "db:migrate": "cd ztmApp && dotnet ef database update",
+    "db:reset": "cd ztmApp && dotnet ef database drop && dotnet ef database update",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "keywords": [
+    "ztm",
+    "gdansk",
+    "vue",
+    "dotnet",
+    "fullstack"
+  ],
+  "author": "RAI Lab",
+  "license": "MIT"
+}
